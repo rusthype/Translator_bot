@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+.env.example/
+__pycache__/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Database - MUHIM: faqat database fayllari
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Environment - MUHIM: .env maxfiy, .env.example esa saqlanadi
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.bak
+*.tmp
